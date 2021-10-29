@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
+body {
+    margin: 0;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    background-color: #E5E5E5!important;
+  }
+
+
+h1, h2 {
+    font-family: 'Sail', cursive;
+    font-size: 3.125rem;
+}
+
+p, nav, li {
+    font-family: 'Baskervville', serif;
+}
+
+.links {
+    font-family: 'Baskervville', serif;
+}
+
+.entry-box {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.entry-box h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bg-color {
+    background-color: #E5E5E5;
+}
+
+.content-box {
+    padding: 30px;
+    min-height: 200px;
+}
+
+.content-box ul {
+    list-style: none;
+}
+
+.content-box ul li {
+    margin-bottom: 10px;
+}
+
+.first-image {
+    background-image: url(images/Laptop1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.second-image {
+    background-image: url(images/education.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.third-image {
+    background-image: url(images/laptop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.fourth-image {
+    background-image: url(images/hobbies.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.fifth-image {
+    background-image: url(images/contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .content-box {
+        min-height: 400px;
+    }
+    .first-image {
+        text-align: right;
+    }
+    .second-image {
+        text-align: right;
+    }
+    .third-image {
+        text-align: right;
+    }
+    .fourth-image {
+        text-align: right;
+    }
+    .fifth-image {
+        text-align: right;
+    }   
+}
+
+.links {
+    margin-bottom: 10px;
+    color: #212529;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.links:hover {
+    color: #ebced0;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
